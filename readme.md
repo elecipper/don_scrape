@@ -40,8 +40,8 @@ It’s recommended to use a Python virtual environment for local development.
 3. Configure Environment Variables
 
 The application expects the following environment variables:
-	•	GCP_PROJECT: tali-448712
-	•	BQ_DATASET: donations
-	•	BQ_TABLE: The BigQuery table name.
+	•	export GCP_PROJECT=tali-448712
+	•	export BQ_DATASET=donations
+	•	export BQ_TABLE=parteispenden
 
 For local testing, set these in your shell:
